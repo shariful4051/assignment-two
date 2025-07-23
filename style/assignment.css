@@ -1,0 +1,62 @@
+/* common style */
+.max-width{
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+/* navbar style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom:229px;
+    
+}
+nav ul{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.cart{
+    width: 22px;
+    height: 15px;
+    
+}
+nav li{
+    list-style: none;
+    
+}
+.home{
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+.shop , .about{
+    color: rgba(137, 135, 161, 1);
+}
+
+
+/* banner style */
+.banner-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.always{
+    font-size: 4.0625rem;
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+.fresh{
+   font-size: 4.0625rem; 
+   color: rgba(233, 90, 8, 1);
+   font-weight: bold;
+}
+.banner-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+
+
