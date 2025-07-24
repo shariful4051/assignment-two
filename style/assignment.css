@@ -63,6 +63,9 @@ nav li{
     width: 100%;
 }
 /* our plants section */
+.plant{
+    margin-bottom:210px;
+}
 .plant-content{
     margin: 0 auto;
     text-align: center;
@@ -124,7 +127,133 @@ nav li{
     flex: 1;
     
 }
+/* flower and plants lover */
+.plants-lover-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+.pic-store{
+    width: 100%;
+}
+.pic-badge{
+    width: 280px;
+    height: 280px;
+    margin-top:;
+    margin-left: ;
+    
+}
+.lover-title{
+    font-weight: bold;
+    font-size: 3.125rem;
+    color:rgba(0, 0, 0, 1) ;
+}
+.flower-lover li{
+   color: rgba(0, 0, 0, 0.5); 
+   font-size: 1.375rem;}
 
+/* latest deals */
+
+.latest-deal{
+    
+    text-align: center;
+
+}
+
+.latest{
+    color:rgba(233, 90, 8, 1);
+    font-size:3.125rem ;
+    font-weight: bold;
+}
+.deal{
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 3.125rem;
+}
+.deal-description{
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size: 1.375rem;
+}
+
+
+
+.bloom-plant{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-area: bloom;
+    
+    background-image: url("../assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    width: 367px;
+    height: 201px;
+    border-radius: 10px;
+    
+}
+.percent{
+
+  font-size: 1.25rem; 
+  font-weight: bold;
+  color:rgba(255, 255, 255, 1) ;
+}
+.shop{
+    
+    font-weight: 600;
+    color:rgba(255, 255, 255, 1) ;
+  
+}
+.ana-plant{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-area: ana;
+    background-image: url(../assets/deal-ana.png);
+    width: 367px;
+    height: 197px;
+    border-radius: 10; 
+    background-color: rgba(200, 200, 200, 1); 
+    
+}
+
+.zabo-plant{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-area: zabo;
+    background-image: url(../assets/deal-zabo.png);
+   width: 753px;
+    height: 423px;
+    border-radius: 10px;
+}
+.percent-ze{
+    font-size:2.5rem ;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+.shop-ze{
+    font-size:1.75rem ;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+.pic-container{
+    display: grid;
+    gap: 28px;
+    grid-template-areas:
+    "bloom zabo zabo"
+    "ana zabo zabo"
+    ;
+}
+
+
+
+
+
+.hide{
+    display: none;
+}
 
 
 
@@ -143,6 +272,19 @@ nav li{
     }
     .card-container{
         grid-template-columns: repeat(2,1fr);
+    }
+     .zabo-plant{
+        width: 367px;
+   
+    }
+    .bloom-plant,.ana-plant,.zabo-plant{
+        margin-left: 20px;
+    }
+    .pic-container{
+        grid-template-areas:
+        "bloom"
+        "ana"
+        "zabo";
     }
 }
 
