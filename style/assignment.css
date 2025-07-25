@@ -31,7 +31,7 @@ nav li{
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
 }
-.shop,.about{
+.nav-shop,.about{
     color: rgba(137, 135, 161, 1);
 }
 
