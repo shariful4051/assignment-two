@@ -31,7 +31,7 @@ nav li{
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
 }
-.shop , .about{
+.shop,.about{
     color: rgba(137, 135, 161, 1);
 }
 
@@ -182,8 +182,6 @@ nav li{
     color:rgba(0, 0, 0, 0.5) ;
     font-size: 1.375rem;
 }
-
-
 
 .bloom-plant{
     display: flex;
@@ -368,7 +366,7 @@ input{
         margin-right: 18px;
     }
     .bunch{
-        width:393px ;
+        width:390px ;
         height: 276px;
     }
     .footer-icon{
